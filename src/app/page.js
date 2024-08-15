@@ -41,21 +41,21 @@ export default function Home() {
 
       <div className={styles.grid}>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="robin"
           className={styles.card}
-          target="_blank"
+          target="_self"
           rel="noopener noreferrer"
         >
           <h2>
-            Docs <span>-&gt;</span>
+            Robin <span>-&gt;</span>
           </h2>
           <p>Find in-depth information about Next.js features and API.</p>
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/learn"
           className={styles.card}
-          target="_blank"
+          target="_self"
           rel="noopener noreferrer"
         >
           <h2>
@@ -65,9 +65,9 @@ export default function Home() {
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/template"
           className={styles.card}
-          target="_blank"
+          target="_self"
           rel="noopener noreferrer"
         >
           <h2>
@@ -77,7 +77,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="deploy"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
